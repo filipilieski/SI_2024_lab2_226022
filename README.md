@@ -54,7 +54,7 @@ Filip Ilieski 226022
 |22-24|0|0|1|0|0| true|
 
 
-6. Multiple condition
+5. Multiple condition
 
 | number | item.getPrice>300 | item.getDiscount>0 | item.getBarcode.charAt(0)=='0' | result |
 | ------ | ----------------- | ------------------ | ------------------------------ | ------ |
