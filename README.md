@@ -14,6 +14,7 @@ Filip Ilieski 226022
 
 
 4. Тест случаи за Every Branch
+   
 |Branches | allitems=["Test27", "276f", 50, 0], payment=101 | allitems=[], payment=101 | allitems=[null, "276276", 150, 0], payment=121 | allitems=["Test27", null, X, X], payment=101 | allitems=["Test27", "0123", 333, 10], payment=159 | 1 (true) |
 |-------- | ------------------- ------- --- --- ----------- | ------------ ----------- | --------------- --------- ---- --- ----------- | ------------------- ----- -- --- ----------- | ------------------- ------- ---- ---- ----------- | - ------ |
 |1-3          |1|0|1|1|1| true |
@@ -53,7 +54,7 @@ Filip Ilieski 226022
 |22-24|0|0|1|0|0| true|
 
 
-5. Multiple condition
+6. Multiple condition
 
 | number | item.getPrice>300 | item.getDiscount>0 | item.getBarcode.charAt(0)=='0' |
 | ------ | ----------------- | ------------------ | ------------------------------ |
