@@ -55,12 +55,13 @@ Filip Ilieski 226022
 
 
 5. Multiple condition
-| number | item.getPrice>300 | item.getDiscount>0 | item.getBarcode.charAt(0)=='0' | && |
-| ------ | ----------------- | ------------------ | ------------------------------ | -- |
-|   1    |         T         |         T          |               T                |  T |
-|   2    |         T         |         F          |               X                |  F |
-|   3    |         T         |         T          |               F                |  F |
-|   4    |         F         |         X          |               X                |  F |
+| number | item.getPrice>300 | item.getDiscount>0 | item.getBarcode.charAt(0)=='0' |
+| ------ | ------------------ | ------------------ | ------------------------------ |
+| T      | T                  | T                  | T                              |
+| T      | F                  | X                  | F                              |
+| T      | T                  | F                  | F                              |
+| F      | X                  | X                  | F                              |
+
 
 
 
