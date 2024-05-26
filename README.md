@@ -67,6 +67,9 @@ Filip Ilieski 226022
 
 
 number 1 test case: item.getPrice = 357 | item.getDiscount = 50 | item.getBarcode.charAt(0)=='0258'
+
 number 2 test case: item.getPrice = 357 | item.getDiscount = -50 | item.getBarcode.charAt(0)== X
+
 number 3 test case: item.getPrice = 357 | item.getDiscount = 50 | item.getBarcode.charAt(0)=='xyz'
+
 number 4 test case: item.getPrice = 27 | item.getDiscount = X | item.getBarcode.charAt(0)== X
